@@ -1,9 +1,9 @@
-# swipe-handler
+# swipe-right-js
 
-[![npm version](https://img.shields.io/npm/v/swipe-handler.svg)](https://www.npmjs.com/package/swipe-handler)
+[![npm version](https://img.shields.io/npm/v/swipe-right-js.svg)](https://www.npmjs.com/package/swipe-right-js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
-[![Bundle Size](https://img.shields.io/bundlephobia/minzip/swipe-handler)](https://bundlephobia.com/package/swipe-handler)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/swipe-right-js)](https://bundlephobia.com/package/swipe-right-js)
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](https://github.com)
 
 A lightweight, high-performance, framework-agnostic swipe gesture library for touch devices. Built with strict TypeScript and zero tolerance for `any` types.
@@ -19,7 +19,7 @@ A lightweight, high-performance, framework-agnostic swipe gesture library for to
 ## Installation
 
 ```bash
-bun add swipe-handler
+bun add swipe-right-js
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ bun add swipe-handler
 ### Core API (Framework Agnostic)
 
 ```typescript
-import { createSwipeHandler } from 'swipe-handler';
+import { createSwipeHandler } from 'swipe-right-js';
 
 const element = document.getElementById('swipeable');
 
@@ -47,7 +47,7 @@ Since this library is framework-agnostic, you can easily create your own React h
 
 ```tsx
 import { useEffect, useRef, type RefObject } from 'react';
-import { createSwipeHandler, type SwipeCallback, type SwipeConfig } from 'swipe-handler';
+import { createSwipeHandler, type SwipeCallback, type SwipeConfig } from 'swipe-right-js';
 
 function useSwipe(
   ref: RefObject<HTMLElement>,
@@ -81,7 +81,7 @@ function SwipeableComponent() {
 ### Configuration Options
 
 ```typescript
-import { createSwipeHandler } from 'swipe-handler';
+import { createSwipeHandler } from 'swipe-right-js';
 
 const handler = createSwipeHandler(
   element,
@@ -136,7 +136,7 @@ interface SwipeConfig {
 ### Basic Swipe Detection
 
 ```typescript
-import { createSwipeHandler } from 'swipe-handler';
+import { createSwipeHandler } from 'swipe-right-js';
 
 const element = document.querySelector('.swipeable');
 
@@ -162,7 +162,7 @@ createSwipeHandler(element, (event) => {
 
 ```tsx
 import { useEffect, useRef, useState } from 'react';
-import { createSwipeHandler } from 'swipe-handler';
+import { createSwipeHandler } from 'swipe-right-js';
 
 function Carousel() {
   const [index, setIndex] = useState(0);
@@ -215,18 +215,6 @@ createSwipeHandler(element, callback, {
 - Chrome Mobile (Android)
 - Firefox Mobile
 
-## Development
-
-```bash
-# Install dependencies
-bun install
-
-# Run tests
-bun test
-
-# Build (if needed)
-bun run build
-```
 
 ## License
 

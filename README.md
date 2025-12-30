@@ -1,14 +1,20 @@
 # swipe-handler
 
+[![npm version](https://img.shields.io/npm/v/swipe-handler.svg)](https://www.npmjs.com/package/swipe-handler)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/swipe-handler)](https://bundlephobia.com/package/swipe-handler)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](https://github.com)
+
 A lightweight, high-performance, framework-agnostic swipe gesture library for touch devices. Built with strict TypeScript and zero tolerance for `any` types.
 
 ## Features
 
-- 🚀 **Lightweight**: < 1KB minified (core only)
-- ⚡ **High Performance**: Optimized event handling with passive listeners
-- 🔒 **Type Safe**: Strict TypeScript with zero `any` types
-- 🎯 **Framework Agnostic**: Works with React, Vue, Angular, or vanilla JavaScript
-- 📱 **Touch Optimized**: Designed specifically for mobile touch events
+- **Lightweight**: < 1KB minified (core only)
+- **High Performance**: Optimized event handling with passive listeners
+- **Type Safe**: Strict TypeScript with zero `any` types
+- **Framework Agnostic**: Works with React, Vue, Angular, or vanilla JavaScript
+- **Touch Optimized**: Designed specifically for mobile touch events
 
 ## Installation
 

@@ -31,7 +31,10 @@
     "framework-agnostic",
     "typescript"
   ],
-  "author": "",
+  "author": {
+    "name": "xpriori",
+    "url": "https://github.com/phtn"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/bun": "latest"
